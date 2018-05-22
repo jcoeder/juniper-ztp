@@ -19,9 +19,9 @@ yum install vstfpd -y
 
 yum update -y
 
-Configure dhcpd for the interface you wish to use - example config in this repo
+#Configure dhcpd for the interface you wish to use - example config in this repo
 
-Configure vsftpd to be insecure because you do networking - example config in this repo
+#Configure vsftpd to be insecure because you do networking - example config in this repo
 
 systemctl enable dhcpd
 
@@ -31,4 +31,4 @@ systemctl start dhcpd
 
 systemctl start vsftpd
 
-Place files in /var/ftp/pub
+#Place files in /var/ftp/pub
