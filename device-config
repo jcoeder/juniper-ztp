@@ -1,0 +1,2 @@
+set interfaces vme unit 0 family inet dhcp vendor-id Juniper-qfx5100-48s-6q-
+set chassis auto-image-upgrade
