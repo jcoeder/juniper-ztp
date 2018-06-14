@@ -23,6 +23,8 @@ yum update -y
 
 chmod -R 777 /var/ftp/pub
 
+chown -R ftp:ftp /var/ftp/pub
+
 systemctl enable dhcpd
 
 systemctl enable vsftpd
