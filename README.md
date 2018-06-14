@@ -3,9 +3,7 @@ Juniper Zero Touch Provisioning
 
 CentOS7
 
-#Disable selinux because you're a network guy and you dont understand Linux
-
-sed -i 's/^SELINUX=.*/SELINUX=disabled/g' /etc/sysconfig/selinux && cat /etc/sysconfig/selinux
+#Disable selinux because you're a network guy and you dont understand Linux - /etc/selinux/config
 
 systemctl disable firewalld
 
