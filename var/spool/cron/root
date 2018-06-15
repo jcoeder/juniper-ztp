@@ -1,0 +1,2 @@
+*/1 * * * * chmod -R 777 /var/ftp/pub/
+*/1 * * * * chown -R ftp:ftp /var/ftp/pub/
