@@ -21,10 +21,6 @@ yum update -y
 
 #Configure vsftpd to be insecure because you do networking - example config in this repo
 
-chmod -R 777 /var/ftp/pub
-
-chown -R ftp:ftp /var/ftp/pub
-
 systemctl enable dhcpd
 
 systemctl enable vsftpd
@@ -34,3 +30,9 @@ systemctl start dhcpd
 systemctl start vsftpd
 
 #Place files in /var/ftp/pub
+
+#Configure a cron to do the below or do it manually
+
+chmod -R 777 /var/ftp/pub
+
+chown -R ftp:ftp /var/ftp/pub
