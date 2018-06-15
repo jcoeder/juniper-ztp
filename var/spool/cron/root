@@ -1,2 +1,3 @@
+#every minute change file permissions and set owners cause you're not good at configuring vsftpd.
 */1 * * * * chmod -R 777 /var/ftp/pub/
 */1 * * * * chown -R ftp:ftp /var/ftp/pub/
